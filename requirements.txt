@@ -1,3 +1,4 @@
 plotly
 streamlit
 streamlit_extras
+streamlit_folium
