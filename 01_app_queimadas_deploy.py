@@ -386,7 +386,7 @@ elif tipo_analise == '**Distribuição Espacial**':
             # seleciona o "ANO"
             anos = np.arange(2003, 2025, 1).tolist()
             ano_selecionado = st.selectbox('Selecione o :red[**Ano**]:', anos)
-            st.image(f'https://github.com/evmpython/web_app/raw/main/Fig_0_acumulado_e_anomalia_focos_{
+            st.image(f'Fig_0_acumulado_e_anomalia_focos_{
                      ano_selecionado}_BRASIL.png', use_column_width=True)
 
         with c2:
@@ -396,7 +396,7 @@ elif tipo_analise == '**Distribuição Espacial**':
                      'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro']
             mes_selecionado = st.selectbox('Selecione o :red[**Mês**]:', meses)
             st.image(
-                f'https://github.com/evmpython/web_app/raw/main/Fig_0_acumulado_e_anomalia_focos_2023_BRASIL.png', use_column_width=True)
+                'Fig_0_acumulado_e_anomalia_focos_2023_BRASIL.png', use_column_width=True)
 
     # --------------------------------------------------------#
     #                    GRÁFICOS
@@ -411,7 +411,7 @@ elif tipo_analise == '**Distribuição Espacial**':
             # seleciona o "ANO"
             anos = np.arange(2003, 2025, 1).tolist()
             ano_selecionado = st.selectbox('Selecione o :red[**Ano**]:', anos)
-            st.image(f'https://github.com/evmpython/web_app/raw/main/Fig_0_acumulado_e_anomalia_focos_{
+            st.image(f'Fig_0_acumulado_e_anomalia_focos_{
                      ano_selecionado}_BRASIL.png', use_column_width=True)
 
         with c2:
@@ -421,7 +421,7 @@ elif tipo_analise == '**Distribuição Espacial**':
                      'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro']
             mes_selecionado = st.selectbox('Selecione o :red[**Mês**]:', meses)
             st.image(
-                f'https://github.com/evmpython/web_app/raw/main/Fig_0_acumulado_e_anomalia_focos_2023_BRASIL.png', use_column_width=True)
+                f'Fig_0_acumulado_e_anomalia_focos_2023_BRASIL.png', use_column_width=True)
 
 
 # ==============================================================================================================#
