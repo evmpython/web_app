@@ -386,8 +386,8 @@ elif tipo_analise == '**Distribuição Espacial**':
             # seleciona o "ANO"
             anos = np.arange(2003, 2025, 1).tolist()
             ano_selecionado = st.selectbox('Selecione o :red[**Ano**]:', anos)
-            st.image(f'Fig_0_acumulado_e_anomalia_focos_{
-                     ano_selecionado}_BRASIL.png', use_column_width=True)
+            st.image('Fig_0_acumulado_e_anomalia_focos_2023_BRASIL.png',
+                     use_column_width=True)
             st.image('Fig_0_acumulado_e_anomalia_focos_2023_BRASIL.png',
                      use_column_width=True)
 
