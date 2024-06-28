@@ -1,0 +1,61 @@
+/* General body and text styling to match the theme */
+body {
+    background-color: #f8f9fa; /* Matches secondaryBackgroundColor */
+    color: #212529; /* Matches textColor */
+}
+
+/* Styling for headers to use the primary color */
+h1, h2, h3 {
+    color: #17a2b8; /* Matches primaryColor */
+}
+
+/* Enhance the look of metric containers */
+[data-testid="metric-container"] {
+    border: 2px solid #17a2b8; /* Use primary color for border */
+    background-color: #ffffff; /* Bright background for readability */
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for plots and charts containers to subtly highlight them */
+.plot-container > div {
+    border: 1px solid #17a2b8; /* Use primary color for border */
+    padding: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* Custom styles for expanders to make them stand out */
+div[data-testid="stExpander"] div[role="button"] {
+    background-color: #17a2b8; /* Primary color for header */
+    color: #ffffff; /* White text for contrast */
+    padding: 8px;
+    border-radius: 5px;
+}
+
+
+
+/* Sidebar specific styling */
+[data-testid="stSidebar"] {
+    background-color: #5F21CE; /* Matches secondaryBackgroundColor */
+    color: #faf9f9; /* Matches textColor */
+}
+
+.sidebar-content {
+    padding: 10px;
+    border-left: 3px solid #faf9fa; /* A vertical bar with primary color */
+}
+
+
+
+div.row-widget.stRadio > div {
+    flex-direction: row;
+    align-items: stretch;
+   }
+   
+div.row-widget.stRadio > div[role="radiogroup"] > label[data-baseweb="radio"]  {
+    background-color: #18C99F;
+    padding-right: 10px;
+    padding-left: 4px;
+    padding-bottom: 3px;
+    margin: 4px;
+   }
